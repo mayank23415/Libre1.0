@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "333865620295",
+    "project_id": "libre1-8baa7",
+    "storage_bucket": "libre1-8baa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333865620295:android:fc582ed194653baaa7b262",
+        "android_client_info": {
+          "package_name": "com.project.libre10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333865620295-n30tdmcclgkopm4e44kdheigst17i2kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.libre10",
+            "certificate_hash": "5194b97175cf8cb4a2807cf1044431d6c0808d0f"
+          }
+        },
+        {
+          "client_id": "333865620295-b129pq4fafhf1jgrlpq5vd078bak82j0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF-M8kxD8Z08-ih-p9yJ4vDgGqOeDTGt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333865620295-b129pq4fafhf1jgrlpq5vd078bak82j0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
