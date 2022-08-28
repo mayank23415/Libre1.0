@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Libre1.0</string>
+    <string name="splashActivityTitle">Libre</string>
+    <string name="login">LOGIN</string>
+    <string name="et_Email">Enter Email</string>
+    <string name="et_Password">Enter Password</string>
+    <string name="no_account">Don\'t have account?</string>
+    <string name="register">Register</string>
+</resources>
