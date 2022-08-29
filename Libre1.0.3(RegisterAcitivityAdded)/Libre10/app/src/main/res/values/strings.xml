@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Libre1.0</string>
+    <string name="splashActivityTitle">Libre</string>
+    <string name="login">LOGIN</string>
+    <string name="et_Email">Enter Email</string>
+    <string name="et_Password">Enter Password</string>
+    <string name="no_account">Don\'t have account?</string>
+    <string name="register">Register</string>
+
+    <string name="createAccount">CREATE AN ACCOUNT</string>
+    <string name="firstName">Enter First Name</string>
+    <string name="lastName">Enter Last Name</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="agreement">I agree to terms and condition</string>
+    <string name="exsistingAccount">Already have an account ?</string>
+</resources>
