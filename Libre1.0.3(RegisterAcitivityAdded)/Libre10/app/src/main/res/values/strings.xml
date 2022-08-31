@@ -15,4 +15,14 @@
     <string name="confirmPassword">Confirm Password</string>
     <string name="agreement">I agree to terms and condition</string>
     <string name="exsistingAccount">Already have an account ?</string>
+
+    <!--Strings For Register Activity Validation Errors -->
+    <string name="err_msg_enter_first_name">Please enter first name.</string>
+    <string name="err_msg_enter_last_name">Please enter last name.</string>
+    <string name="err_msg_enter_email">Please enter email.</string>
+    <string name="err_msg_enter_password">Please enter password.</string>
+    <string name="err_msg_enter_confirm_password">Please enter confirm password.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Password and confirm password does not match.</string>
+    <string name="err_msg_agree_terms_and_condition">Please agree terms and condition.</string>
+    <string name="validation_successful">Thank You For Registering</string>
 </resources>

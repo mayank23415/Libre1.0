@@ -8,29 +8,37 @@
     android:background="@drawable/gradient_list"
     tools:context=".Activities.RegisterActivity">
 
-    <com.project.libre10.utils.BoldTextView
-        android:id="@+id/boldTextView"
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_register_activity"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:text="@string/createAccount"
-        android:textColor="@color/MagicMind"
-        android:textSize="@dimen/BigText"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="14dp">
+
+        <com.project.libre10.utils.BoldTextView
+            android:id="@+id/boldTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createAccount"
+            android:textColor="@color/MagicMind"
+            android:textSize="@dimen/MediumText"
+            android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boldTextView"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_register_activity"
+
         app:layout_constraintVertical_bias="0.061">
 
         <com.google.android.material.textfield.TextInputLayout
@@ -158,7 +166,8 @@
         <androidx.appcompat.widget.AppCompatCheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/Emerald" />
+            android:textColor="@color/Emerald"
+            android:id="@+id/termsAndConditions"/>
 
         <com.project.libre10.utils.NormalTextView
             android:layout_width="wrap_content"
@@ -197,7 +206,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/exsistingAccount"
-            android:textColor="@color/MagicMind"
+            android:textColor="@color/WarmBlack"
             android:textSize="@dimen/NormalText" />
 
         <com.project.libre10.utils.NormalBoldTextView
